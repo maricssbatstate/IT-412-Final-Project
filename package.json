@@ -1,0 +1,15 @@
+{
+  "name": "it-412-final-project",
+  "version": "1.0.0",
+  "description": "IT 412 Final Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
