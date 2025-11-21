@@ -13,7 +13,7 @@ A modern, responsive Node.js web application built with Express.js featuring a c
 - Root route displays:
   - Full name: **Maricar Esto Panganiban**
   - Class section: **BA 4101**  
-  - Inspirational quote: *"Never be afraid to try something new, life gets boring when you stay within the limit of what you already know.- Anonymous"*
+  - Inspirational quote: *Never be afraid to try something new, life gets boring when you stay within the limit of what you already know.- Anonymous*
 
 ✅ **Interface Design**
 - Modern, centered responsive layout
