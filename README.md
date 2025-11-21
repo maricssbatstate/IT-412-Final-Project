@@ -1,13 +1,14 @@
-# IT 412 Final Project
+# IT 412 Final Project - Node.js App with Express Server
 
-A modern, responsive Node.js web application built with Express.js featuring a clean sage-green design.
+A modern, responsive Node.js web application built with Express.js server featuring a clean sage-green design and professional architecture.
 
 ## 📋 Project Requirements Met
 
-✅ **File Structure**
-- `server.js` - Main Express server entry point
+✅ **File Structure** (Node.js App with Express Server)
+- `server.js` - Express.js server with static file serving and routing
+- `public/index.html` - Main HTML page served by Express
 - `public/style.css` - Modern styling with sage green theme and transparency
-- `package.json` - Dependencies and scripts
+- `package.json` - Node.js dependencies and npm scripts
 
 ✅ **Functionality**
 - Root route displays:
@@ -74,15 +75,19 @@ To add your profile image:
    - **Start Command:** `npm start`
    - Render will automatically use the PORT environment variable
 
-## 📁 Project Structure
+## 📁 Project Structure (Node.js Express App)
 
 ```
 IT-412-Final-Project/
-├── server.js              # Main Express server
-├── package.json           # Project config & dependencies
-├── public/
-│   └── style.css         # Styling with sage green theme
-└── README.md             # This file
+├── server.js              # Express.js server with routing
+├── package.json           # Node.js project config & dependencies
+├── package-lock.json      # Dependency lock file
+├── public/                # Static files served by Express
+│   ├── index.html        # Main HTML page
+│   ├── style.css         # Sage green styling
+│   ├── marics.jpg        # Profile image
+│   └── fish.jpg          # Background image
+└── README.md             # Project documentation
 ```
 
 ## 🎨 Customization
