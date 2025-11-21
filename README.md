@@ -1,107 +1,22 @@
-# IT 412 Final Project - Node.js App with Express Server
+# IT 412 Final Project
 
-A modern, responsive Node.js web application built with Express.js server featuring a clean sage-green design and professional architecture.
+Node.js application with Express server.
 
-## 📋 Project Requirements Met
+## Quick Start
 
-✅ **File Structure** (Node.js App with Express Server)
-- `server.js` - Express.js server with static file serving and routing
-- `public/index.html` - Main HTML page served by Express
-- `public/style.css` - Modern styling with sage green theme and transparency
-- `package.json` - Node.js dependencies and npm scripts
-
-✅ **Functionality**
-- Root route displays:
-  - Full name: **Maricar Esto Panganiban**
-  - Class section: **BA 4101**  
-  - Inspirational quote: *Never be afraid to try something new, life gets boring when you stay within the limit of what you already know.- Anonymous*
-
-✅ **Interface Design**
-- Modern, centered responsive layout
-- Sage green color scheme with transparency effects
-- Clean Poppins font family
-- Space for profile image at the top
-
-✅ **Deployment Ready**
-- Proper start script: `"node server.js"`
-- PORT environment variable support for Render/Heroku compatibility
-
-✅ **Code Quality**
-- Well-organized, commented code
-- Clear separation of server logic and styling
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (version 18 or higher)
-- npm (comes with Node.js)
-
-### Installation & Running
-
-1. **Install dependencies:**
 ```bash
 npm install
-```
-
-2. **Start the application:**
-```bash
 npm start
 ```
-The app will run on port 3000 by default.
 
-3. **Custom port (if needed):**
-```bash
-PORT=3001 npm start
-```
+Visit: `http://localhost:3000`
 
-4. **Visit your application:**
-Open your browser to `http://localhost:3000` (or your chosen port)
+## Files
 
-## 🖼️ Adding Your Profile Image
-
-To add your profile image:
-
-1. Save your image in the `public` folder (e.g., `public/profile.jpg`)
-2. In `server.js`, uncomment and edit line 33:
-```html
-<img src="/profile.jpg" alt="${fullName}" class="profile-image">
-```
-
-## 🌐 Deployment to Render
-
-1. Connect your GitHub repository to Render
-2. Use these settings:
-   - **Build Command:** `npm install`
-   - **Start Command:** `npm start`
-   - Render will automatically use the PORT environment variable
-
-## 📁 Project Structure (Node.js Express App)
-
-```
-IT-412-Final-Project/
-├── server.js              # Express.js server with routing
-├── package.json           # Node.js project config & dependencies
-├── package-lock.json      # Dependency lock file
-├── public/                # Static files served by Express
-│   ├── index.html        # Main HTML page
-│   ├── style.css         # Sage green styling
-│   ├── marics.jpg        # Profile image
-│   └── fish.jpg          # Background image
-└── README.md             # Project documentation
-```
-
-## 🎨 Customization
-
-- **Name/Quote:** Edit variables in `server.js` or set environment variables
-- **Colors:** Modify CSS variables in `style.css`
-- **Layout:** Adjust styles in `public/style.css`
-
-## 🛠️ Tech Stack
-
-- **Backend:** Node.js, Express.js
-- **Frontend:** HTML5, CSS3 (with modern features like backdrop-filter)
-- **Font:** Google Fonts (Poppins)
-- **Design:** Responsive, mobile-first approach
+- `server.js` - Express server
+- `public/index.html` - Main page  
+- `public/style.css` - Styling
+- `package.json` - Dependencies
 
 ---
-*Created for IT 412 Final Project by Maricar Esto Panganiban*
+*Maricar Esto Panganiban - BA 4101*
